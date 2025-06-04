@@ -1,0 +1,179 @@
+.imagesize{
+    height: 6rem;
+    width:6rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+}
+.headerlsit ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+.headerlsit li{
+    display: inline;
+    margin-right: 3rem;
+}
+.headerlsit{
+    padding-top: 1rem;
+}
+.appstore{
+    width:8rem;
+    height:4rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.header{
+    display:flex;
+    background-color: black;
+    color: white;
+    padding-top: 0;
+    text-align: center;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    border-bottom:1px solid white;
+}
+body,html{
+    margin:0;
+    padding: 0;
+    background-color: rgb(26, 3, 41);
+}
+.headerlsit{
+    margin-right: 5rem;
+}
+.moto{
+    font-size: 5rem;
+    margin-top: 7rem;
+
+}
+.hone{
+    text-align: center;
+    background-color: rgb(26, 3, 41);
+    color: white;
+}
+.paragraph{
+    font-size: 2rem;
+}
+.paragraphdiv{
+    text-align: center;
+    background-color: rgb(26, 3, 41);
+    color: white;
+}
+.partwo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 6rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.listtwo ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    background-color: black;
+    color: white;
+    display:flex;
+    flex-wrap: wrap;
+}
+.listtwo ul li:first-child{
+    margin-left: 3rem;
+}
+.listtwo li{
+    font-size: 2rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+.knowmore{
+    background-color: black;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.knowmore button{
+    border-radius: 3rem;
+    padding:.2rem 1rem;
+    background-color: aqua;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+.knowmore a{
+    text-decoration: none;
+    color: inherit;
+}
+.whyus{
+    background-color: black;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+.whyusdivs{
+    display:flex;
+    flex-wrap: wrap;
+    
+
+}
+.whyusdivs div{
+    width: 30%;
+    padding-left: 3rem;
+}
+.whyusdivs div:first-child{
+    padding-left: 2rem;
+}
+.whyusdivs div h2{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.whyusdivs div p{
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+.whyusdivs div:not(:last-child){
+    border-right: 1px solid white;
+}
+.twoblocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.twoblocks div{
+    width:30%;
+    align-content: center;
+}
+.twoblocks div h2{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+
+}
+.twoblocks div p{
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+.twoblocks div:first-child{
+    padding-left: 17rem;
+    border-right: 1px solid white;
+}
+.borderwhite{
+    padding-top: 5rem;
+    border-bottom: 1px solid white;
+}
+.last {
+    display: flex;
+    flex-wrap: wrap;
+}
+.last div{
+    width: 20%;
+}
+.last div ul{
+    list-style: none;
+    text-align: center;
+    padding-left: 1rem;
+}
+.last div h3{
+    text-align: center;
+}
+.last div:first-child{
+    padding-left: 25rem;
+}
